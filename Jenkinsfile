@@ -19,7 +19,7 @@ pipeline {
         stage('Docker Run') {
             agent any
             steps {
-                sh 'docker run -d -p 12000:12000 elangovansub/frontend:jen'
+                sh 'docker run -d -p 12001:12000 elangovansub/frontend:jen'
                 }
             }
         }
